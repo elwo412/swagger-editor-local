@@ -147,7 +147,7 @@ Environment variable | Default value
 --- | ---
 `URL_SWAGGER2_GENERATOR` | `https://generator.swagger.io/api/swagger.json`
 `URL_OAS3_GENERATOR` | `https://generator3.swagger.io/openapi.json`
-`URL_SWAGGER2_CONVERTER` | `https://converter.swagger.io/api/convert`
+`URL_SWAGGER2_CONVERTER` | `http://localhost:3000/convert` (originally: https://converter.swagger.io/api/convert)
 
 If you want to run the Swagger Editor locally without the Codegen features (Generate Server and Generate Client) you can set the above environment variables to `null` (`URL_SWAGGER2_CONVERTER=null`).
 

@@ -60,9 +60,9 @@ const defaults = {
     })
   ],
   showExtensions: true,
-  swagger2GeneratorUrl: "https://generator.swagger.io/api/swagger.json",
-  oas3GeneratorUrl: "https://generator3.swagger.io/openapi.json",
-  swagger2ConverterUrl: "https://converter.swagger.io/api/convert",
+  swagger2GeneratorUrl: "null",
+  oas3GeneratorUrl: "null",
+  swagger2ConverterUrl: "http://localhost:3000/convert",
 }
 
 export default function SwaggerEditor(options) {
