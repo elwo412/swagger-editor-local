@@ -25,6 +25,7 @@ This project provides a completely local solution for validating Swagger (OpenAP
 ### Running the Application
 
 - **Start the Application:** Navigate to the project root and execute:
+    - `npm i --legacy-peer-deps`
     - `npm start`.
 
 ## Usage
