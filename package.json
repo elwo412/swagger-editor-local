@@ -66,7 +66,9 @@
     "boron": "^0.2.3",
     "brace": "^0.11.1",
     "classnames": "^2.2.6",
+    "cors": "=2.8.5",
     "deepmerge": "^4.0.0",
+    "express": "=4.18.2",
     "file-dialog": "0.0.8",
     "immutable": "^3.x.x",
     "is-json": "^2.0.1",
@@ -93,10 +95,12 @@
     "reselect": "^4.0.0",
     "swagger-client": "^3.23.0",
     "swagger-ui": "^5.9.0",
+    "swagger2openapi": "=7.0.8",
     "traverse": "^0.6.6",
     "validator": "=13.11.0",
     "ws": "=8.14.2",
     "yaml-js": "^0.3.1",
+    "yamljs": "=0.3.0",
     "local-web-server": "=5.3.0"
   },
   "config": {
