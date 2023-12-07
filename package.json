@@ -19,7 +19,7 @@
   "scripts": {
     "build:serve": "ws --hostname 0.0.0.0 -p 3001",
     "open-static": "open-cli 'http://localhost:3001'",
-    "local-backend": "node ./backend/server.js",
+    "local-backend": ".\\setup-script.bat",
     "start": "npm-run-all --parallel build:serve open-static local-backend"
   },
   "dependencies": {

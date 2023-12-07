@@ -62,7 +62,7 @@ const defaults = {
   showExtensions: true,
   swagger2GeneratorUrl: "null",
   oas3GeneratorUrl: "null",
-  swagger2ConverterUrl: "http://localhost:3000/convert",
+  swagger2ConverterUrl: "http://localhost:3000/api/convert",
 }
 
 export default function SwaggerEditor(options) {
